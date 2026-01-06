@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* shared style */
+.btn{
+    background-color: #FFFFFF;
+    color: #005FAC;
+    padding: 21px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600px;
+}
+
+.hero{
+   
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    background: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 808px;
+    text-align: right;
+}
+
+.hero .hero-container{
+    max-width: 525px;
+    margin-right: 230px;
+
+}
+.hero .hero-container h1{
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.hero .hero-container p{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    line-height: 26px;
+}
