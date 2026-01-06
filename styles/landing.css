@@ -18,19 +18,20 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    font-weight: 600px;
+    font-weight: 600;
 }
+
 
 .hero{
    
     display: flex;
     justify-content:right;
     align-items: center;
-    background: url(../images/banner/banner3.png);
+     background: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 808px;
+    height: 900px;
     text-align: right;
 }
 
@@ -51,4 +52,167 @@
     color: #FFFFFF;
     margin-bottom: 32px;
     line-height: 26px;
+}
+
+.failure{
+    
+    max-width: 1072px;
+    margin: 131px auto 0;
+}
+
+.failure .failure-container{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    
+}
+.failure .failure-container img{
+    width: 569px;
+    height: 723px;
+    
+}
+.heading-content{
+    max-width: 416px;
+}
+.failure .failure-container .heading-content h2{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.failure .failure-container .heading-content p{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+    line-height: 26px;
+    
+}
+
+.failure-container .heading-content ul li{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+    line-height: 26px;
+}
+
+.plan{
+    max-width: 1140px;
+    margin: 131px auto 0;
+}
+
+.plan .plan-heading h2{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.plan .plan-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 86px;
+    text-align: center;
+}
+.plan-container .plan-box img{
+    margin-bottom: 24px;
+}
+.plan-container .plan-box h3{
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+.plan-container .plan-box p{
+    font-size: 25px;
+    color: #737272;
+    font-weight: 500;
+    
+}
+.positive{
+    max-width: 1140px;
+    margin: 131px auto 0;
+}
+
+.positive-container{
+    padding: 59px 64px;
+    background: url(../images/gradient1.png), url(../images/watch.png);
+    background-repeat: no-repeat;}
+
+.positive-container .main-positive-container{
+    max-width: 459px;
+}
+.positive-container .main-positive-container h2{
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #151414;
+}
+footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 131px auto 0;
+    padding: 130px 0;
+}
+footer .footer-container .future{
+    max-width: 485px;
+}
+footer .footer-container .future h2{
+    font-size: 45px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    font-weight: bold;
+
+}
+.future .info{
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px;
+    margin-bottom: 24px;
+    
+}
+.future .email, .phone{
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px;
+    margin-bottom: 16px;
+    
+}
+.future img{
+    margin-right: 17px;
+}
+
+.form-container h3{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+ .form-container input[type="email"]{
+    padding: 21px;
+    color: #F3F3F3;
+    font-size: 18px;
+    max-width: 325px;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    background-color: #44434300;
+ }
+ input::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+ .btn-form{
+    background-color: #005FAC;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
 }
